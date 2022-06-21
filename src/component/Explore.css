@@ -1,0 +1,63 @@
+.explore{
+    margin-top: 2%;
+    padding: 0 0 0 1rem;
+    display: grid;
+    grid-template-columns: 75% 25%;
+  
+}
+
+.explore_movie>ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: .5rem;
+}
+
+.explore_movie>ul img{
+    width: 70%;
+    z-index: -10;
+}
+
+@media only screen and (max-width: 1450px)  {
+    .explore{
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns: 65% 35%;
+  
+    }
+    
+    .explore_movie>ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    
+    .explore_movie>ul img{
+        width: 70%;
+    }
+    
+}
+
+@media only screen and (max-width: 850px)  {
+    .explore{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .explore_movie>ul{
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+  
+    .explore_movie>ul img{
+        position: relative;
+        width: 60%;
+        margin: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}

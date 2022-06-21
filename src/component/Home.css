@@ -1,0 +1,237 @@
+
+.Home{
+    margin: 0 ;
+    padding: 0;
+    width: 100%;
+}
+
+.heading-upcoming{
+    color: #ff0000;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding-block: .5rem;
+}
+.heading-upcoming{
+    background-color: rgba(30, 154, 211, 0.13);
+}
+
+.upcoming-movies{
+    width: 100%;
+    height: 55vh;
+    background-color: rgba(30, 154, 211, 0.13);
+    display: flex;
+}
+
+.btnnav{
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    width: 5%;
+}
+
+
+.upcoming-movies>ul{
+    display: flex;
+    gap: 2rem;
+    width: 99%;
+    list-style: none; 
+    padding: 0%;
+    margin: 0 auto;
+}
+
+.upcoming-movies>ul li,
+.upcoming-movies>ul>a{
+    height: 50vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.upcoming-movies>ul li>img{
+    height: 100%;
+}
+
+.app-logo{
+    width: 100%;
+    
+}
+
+.app-logo img{
+    width: 100%;
+}
+
+
+.main_home{
+    width: 100%;
+    height: 50vh;
+   display: flex;
+}
+.in-theaters .main_home .movies>ul{
+    width: 60vw;
+    height: 50%;
+    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0%;
+}
+Link,a,#ancher{
+    text-decoration: none;
+}
+
+.movies>ul li,
+.movies>ul a{
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+}
+
+.movies>ul li>img,
+.movies>ul a>li>img{
+    width: 60%;
+    padding: 0%;
+}
+.movies>ul li>p{
+    color: rgb(8, 7, 7);
+    font-size: clamp(12px,1rem,2rem);
+}
+.side_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    background-color: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    padding-block:1rem ;
+    border-radius: 15px;
+}
+
+.celeb-list{
+    margin: 1rem;
+}
+
+.celebrities,.links{
+    width: 95%;
+    height: 100%;
+    margin: 0;
+}
+.celeb-list>ul{
+    display: flex;
+    gap: .5rem;
+    padding: 0%;
+    margin: 0%;
+}
+.celeb-list>ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.celeb-list>ul li>img{
+    width: 100%;
+}
+.celeb-list>ul li>p{
+    color: rgb(8, 8, 8);
+    font-size: clamp(12px,1rem,2rem);
+}
+.link-list>ul{
+    list-style: none;
+}
+.link-list>ul li{
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.link-list>ul li>#ancher:hover{
+    color: rgb(245, 11, 11);
+}
+
+@media only screen and (max-width: 1450px)  {
+    .upcoming-movies{
+        height: 60vh;
+        padding-bottom: 1rem;
+    }
+    .upcoming-movies>ul{
+        height: 100%;
+        gap: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .upcoming-movies>ul li,
+    .upcoming-movies>ul>a{
+        height: 100%;
+    }
+    
+    .link-list>ul li>#ancher{
+        font-size: 1.5rem;
+        width: 100%;
+        color: rgb(2, 2, 2);
+    }
+    
+}
+
+@media only screen and (max-width: 850px)  {
+    .Home::-webkit-scrollbar {
+        display: none;
+      }
+    .Home{
+        width: 100%;
+    }
+    .upcoming-movies{
+        width: 100%;
+        height: 40vh;
+        overflow-x: hidden;
+        display: flex;
+        padding-bottom: 1rem;
+    }
+    .upcoming-movies>ul{
+        height: 100%;
+        gap: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .upcoming-movies>ul li{
+        height: 100%;
+    }
+
+    .main_home{
+        flex-direction: column;
+    }
+
+    .in-theaters .main_home .movies>ul{
+        width: 100vw;
+        height: 50%;
+        gap: 0.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0%;
+    }
+    
+    .movies>ul li{
+        width: 100%;
+        padding: 0%;
+        text-align: center;
+    }
+    
+    .movies>ul li>img{
+        width: 60%;
+        padding: 0%;
+    }
+
+    .link-list>ul li>#ancher{
+        font-size: 1rem;
+        width: 100%;
+        color: rgb(2, 2, 2);
+    }
+
+   
+    
+}
