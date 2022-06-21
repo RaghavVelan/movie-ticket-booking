@@ -11,7 +11,7 @@ class Cinema extends React.Component {
     render() {
         return (
             <div>
-                {/* <div className='container-fluid' >
+                <div className='container-fluid' >
                     <div className="row">
                         <div className="col-sm-12">
                             <h3>React Bootstrap Carousel</h3>
@@ -61,7 +61,7 @@ class Cinema extends React.Component {
                             </Carousel>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
         )
     };
