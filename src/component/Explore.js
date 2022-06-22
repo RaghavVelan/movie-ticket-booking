@@ -1,4 +1,5 @@
 import React from 'react';
+import Typekit from 'typekit';
 import {Outlet, Link} from "react-router-dom";
 import './style.css';
 import Side from './Side';
@@ -14,6 +15,8 @@ import jurassic from '../image/jurassic-world-dominion.png'
 import thor from '../image/thor.png'
 import popeye from '../image/popeye.png'
 import batman from '../image/batman.png'
+
+
 
 function About(){
   return <div className="explore">

@@ -39,6 +39,7 @@ function Home(){
             </Link>
         </ul>
         <button className="btnnav next">&#8250;</button>
+        
       </div>
       <div className="app-logo">
         <img src={App_logo} alt="Logo" />
