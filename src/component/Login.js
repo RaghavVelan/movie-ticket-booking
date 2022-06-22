@@ -9,7 +9,7 @@ import script from './myscript.js';
 
 function Login(){
   return (<>
-    <div>
+    <div className='form-sign'>
         <div className="card middle">
             <div className="front">
                 <div className="content">
@@ -23,7 +23,7 @@ function Login(){
                         <input type="password" className="if" placeholder='Enter Password' required/>
                         <label for="remember" className="remember"><input type="checkbox" name="remember" id="remember" className='check-box' />Remember Password</label>
                         <button type="button" className="submit">Login</button>
-                        <h4>OR</h4>
+                        <h4 id='h4'>OR</h4>
                         <div className="link-btn">
                             <a href="#" className="b2">
                                 <img src={glogo} width="22px" /> Google</a>

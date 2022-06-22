@@ -66,6 +66,15 @@
 {
     background-color: var(--back-color);
 } */
+
+.form-sign{
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,50%);
+    z-index: -20;
+}
+
 .middle
 {
 position: absolute;
@@ -125,11 +134,11 @@ color:#FF4C29
     outline: none;
     background: transparent;
 }
-h4{
+#h4{
     margin: 32px 0 60px ;
     color: black;
 }
-h4:before{
+#h4:before{
     content: "";
     display:block;
     width: 115px;
@@ -140,7 +149,7 @@ h4:before{
     top: 68%;
     z-index: -2;
     }
-h4:after{
+#h4:after{
     content: "";
     display:block;
     width: 115px; 
@@ -166,7 +175,7 @@ h4:after{
     font-size: 1rem;
     background: var(--button-color);
 }
-.check-box{
+/* .check-box{
     margin: 10px 10px 15px 0;
     position: relative;
     text-align: start;
@@ -175,7 +184,7 @@ h4:after{
     position: relative;
     right: 62px;
     color: black;
-}
+} */
 .rl{
     font-size: 1rem;
     padding: 10px 30px;
@@ -228,7 +237,7 @@ h4:after{
 .link-btn{
 display: inline-flex;
 }
-div .b2,.b3
+.link-btn .b2,.b3
 {
     position: relative;
     background-color:#fdfcfa;
@@ -238,12 +247,12 @@ div .b2,.b3
     display: inline-flex;
     align-items: center;
 }
-div .b2
+.link-btn .b2
 { 
     right: 41px;
     padding: 8px 10px;
 }
-div .b3
+.link-btn .b3
 {
 
     background-color: #082032;
