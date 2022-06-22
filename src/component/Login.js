@@ -3,7 +3,7 @@ import {Outlet, Link} from "react-router-dom";
 import './style.css';
 import glogo from '../image/g.png';
 import alogo from '../image/apple.png';
-import script from './myscript.js';
+// import script from './myscript.js';
 
 
 

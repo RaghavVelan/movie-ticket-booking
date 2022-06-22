@@ -551,6 +551,7 @@ h3{
     --font-color:#082032;
     --button-color:#FF4C29;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -606,9 +607,9 @@ h3{
 } */
 
 .form-sign{
-    position: relative;
+    position: absolute;
     top: 50%;
-    left: 0%;
+    left: 50%;
     transform: translate(0%,50%);
     z-index: -20;
 }
