@@ -20,11 +20,11 @@ export class Movie extends Component {
                   </div>
                   <div className="movie-type">
                       <input type="checkbox" name="2d" id="2d" />
-                      <label htmlFor="2d">2D</label>
+                      <label htmlFor="2d" id='movie-type-label'> <span className="span-label">2D</span> </label>
                       <input type="checkbox" name="3d" id="3d" />
-                      <label htmlFor="3d">3D</label>
+                      <label htmlFor="3d" id='movie-type-label'> <span className="span-label">3D</span> </label>
                       <input type="checkbox" name="imax" id="imax" />
-                      <label htmlFor="imax">IMAX</label>
+                      <label htmlFor="imax" id='movie-type-label'> <span className="span-label">IMAX</span> </label>
                   </div>
                   <button className='book-ticket'>Book Ticket</button>
               </div>
