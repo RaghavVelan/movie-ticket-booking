@@ -9,6 +9,7 @@ import Explore from "./component/Explore";
 import Cinema from "./component/Cinema";
 import Movie from "./component/Movie"
 import Apppg from './App';
+import Booking from "./component/Booking";
 
 
  
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="Explore" element={<Explore />} />
           <Route path="Cinema" element={<Cinema />} />
           <Route path="Movie" element={<Movie />} />
+          <Route path="Booking" element={<Booking />} />
         </Route>
       </Routes>
     </BrowserRouter>
