@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Movie.css'
+import './style.css'
 import dr_strange from '../image/doctor-strange.png'
 import actress from '../image/Image_8@2x.png';
 

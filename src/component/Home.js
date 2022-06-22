@@ -1,6 +1,6 @@
 import React from 'react';
 import {Outlet, Link} from "react-router-dom";
-import './Home.css';
+import './style.css';
 import Side from './Side';
 import App_logo from '../icon/Icon@2x.png';
 import dune from '../image/dune.png'

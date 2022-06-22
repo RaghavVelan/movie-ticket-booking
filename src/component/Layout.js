@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Outlet, Link} from "react-router-dom";
-import './Layout.css'
+import './style.css'
 import Icon from '../icon/Icon.png';
 
 

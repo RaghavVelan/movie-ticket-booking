@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {Outlet, Link} from "react-router-dom";
-import './Login.css';
+import './style.css';
 import glogo from '../image/g.png';
 import alogo from '../image/apple.png';
 import script from './myscript.js';
