@@ -5,7 +5,7 @@ import actress from '../image/Image_8@2x.png';
 export default function Side() {
   return (
     <div>  <div className="celebrities">
-    <h3>SpotLight Celebrities</h3>
+    <h3 id='heading3'>SpotLight Celebrities</h3>
     <div className="celeb-list">
       <ul>
         <Link to="#" id='ancher'>
@@ -21,7 +21,7 @@ export default function Side() {
     </div>
   </div>
   <div className="links">
-    <h3>Links</h3>
+    <h3 id='heading3'>Links</h3>
     <div className="link-list">
       <ul>
         <li>
