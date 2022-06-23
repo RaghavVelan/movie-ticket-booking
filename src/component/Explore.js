@@ -1,5 +1,5 @@
 import React from 'react';
-import Typekit from 'typekit';
+// import Typekit from 'typekit';
 import {Outlet, Link} from "react-router-dom";
 import './style.css';
 import Side from './Side';
