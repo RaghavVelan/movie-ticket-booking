@@ -10,7 +10,7 @@ import Cinema from "./component/Cinema";
 import Movie from "./component/Movie"
 import Apppg from './App';
 import Booking from "./component/Booking";
-
+import signup from "./component/signup";
 
  
 
@@ -27,6 +27,7 @@ export default function App() {
           <Route path="Cinema" element={<Cinema />} />
           <Route path="Movie" element={<Movie />} />
           <Route path="Booking" element={<Booking />} />
+          <Route path="signup" element={<signup/>} />
         </Route>
       </Routes>
     </BrowserRouter>

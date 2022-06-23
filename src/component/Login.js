@@ -3,7 +3,6 @@ import {Outlet, Link} from "react-router-dom";
 import './style.css';
 import glogo from '../image/g.png';
 import alogo from '../image/apple.png';
-// import script from './myscript.js';
 
 
 
@@ -24,12 +23,8 @@ function Login(){
                         <label for="remember" className="remember"><input type="checkbox" name="remember" id="remember" className='check-box' />Remember Password</label>
                         <button type="button" className="submit">Login</button>
                         <h4 id='h4'>OR</h4>
-                        <div className="link-btn">
-                            <a href="#" className="b2">
-                                <img src={glogo} width="22px" /> Google</a>
-                            <a href="#" className="b3">
-                                <img src={alogo} width="22px" /> iCloud</a>
-                        </div> 
+                        <Link to='/signup'>New User Click Here</Link>   
+                     
                     </form>
                     <form id="register" className="ig1">
                         <input type="text" className="if" placeholder='User ID' required/>
