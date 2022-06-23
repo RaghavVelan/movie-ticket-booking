@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './style.css'
 import dr_strange from '../image/doctor-strange.png'
 import actress from '../image/Image_8@2x.png';
+import {Outlet, Link} from "react-router-dom";
 
 export class Movie extends Component {
   render() {
@@ -26,7 +27,7 @@ export class Movie extends Component {
                       <input type="checkbox" name="imax" id="imax" />
                       <label htmlFor="imax" id='movie-type-label'> <span className="span-label">IMAX</span> </label>
                   </div>
-                  <button className='book-ticket'>Book Ticket</button>
+                  <Link className='book-ticket' to="/Booking">Book Ticket</Link>
               </div>
             </div>
             <div className="cast">
