@@ -539,7 +539,7 @@ Link,a,#ancher{
 :root
 {
     --back-color:#082032;
-    --font-color:#fdfcfa;
+    --font-color:#d8b97b;
     --button-color:#FF4C29;
     --border-color:rgba(255, 255, 255, 0.5);
 }
@@ -566,6 +566,7 @@ Link,a,#ancher{
     left: 50%;
     transform: translate(0%,50%);
     z-index: -20;
+    
 }
 
 .middle
@@ -623,7 +624,7 @@ color:#FF4C29
     border-left:0;
     border-right: 0;
     border-top: 0;
-    border-bottom: 1px solid var(--font-color);
+    border-bottom: 2px solid var(--font-color);
     outline: none;
     background: transparent;
 }
@@ -679,28 +680,28 @@ color:#FF4C29
     color: black;
 } */
 .rl{
+    text-align: center;
     font-size: 1rem;
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
+    padding: .5rem 2.5rem;
     cursor: pointer;
     background: transparent;
     border: 0;
     outline: none;
-    position: relative;
+
 }
 
-.rl:first-of-type{
-    padding-left: 0;
-}
-#btn{
+
+/* #btn{
     top: 0%;
     left: 0%;
     position: absolute;
-    width: 110px;
+    width: 100%;
     height: 100%;
     background: var(--button-color);
     border-radius: 30px;
     transition: .5s;
-}
+} */
 
 .content{
     width: 100%;
@@ -709,7 +710,18 @@ color:#FF4C29
     top: 10%;
     left: 50%;
     transform: translate(-50%,-50%);
+    animation: startup 250ms 1 ease;
 }
+
+@keyframes startup {
+    0%{
+        opacity: .5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .front
  {
     z-index: -10;
@@ -752,6 +764,17 @@ display: inline-flex;
     left: 30px;
     padding: 10px 12px;
     color:#fdfcfa;
+}
+
+.user-login-signin{
+    font-size: 1rem !important;
+    color: rgb(128, 128, 128)!important;
+    transition: all 250ms ease;
+}
+
+.user-login-signin:hover{
+    font-size: 1.1rem !important;
+    color: rgb(211, 48, 26)!important;
 }
 
 /* Movie */
