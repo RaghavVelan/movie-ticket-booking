@@ -967,3 +967,21 @@ h2{
      display: none;
    }
 }
+
+
+/* Cinema */
+
+.video{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.video>video{
+    position: relative;
+}
+
+#movie-title{
+    position: absolute;
+    bottom: 10%;
+    color: #becded;
+}

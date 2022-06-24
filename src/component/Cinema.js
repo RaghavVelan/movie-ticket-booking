@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+// import { Carousel } from 'react-bootstrap';
 import './style.css';
 import App_logo from '../icon/Icon@2x.png';
 import thor_trailer from '../Videos/thor_trailer.mp4';
@@ -7,8 +7,14 @@ import thor_trailer from '../Videos/thor_trailer.mp4';
 class Cinema extends React.Component {
     render() {
         return (
-            <div>
-                <Carousel>
+            <div className='cinema-page'>
+              <div className="video">
+                <video width="100%" height="80%" controls >
+                    <source src={thor_trailer} type="video/mp4"/>
+                </video>
+                <h3 id='movie-title'>Thor Love and Thunder</h3>
+              </div>
+                {/* <Carousel>
   <Carousel.Item>
   <video autoPlay >
       <source src={thor_trailer} type="video/mp4"/>
@@ -19,9 +25,7 @@ class Cinema extends React.Component {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-  <video width="100%" height="80%" controls >
-      <source src={thor_trailer} type="video/mp4"/>
-</video>
+  
 
     <Carousel.Caption>
       <h3>Second slide label</h3>
@@ -38,7 +42,7 @@ class Cinema extends React.Component {
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>
-</Carousel>
+</Carousel> */}
 
                
             </div>
