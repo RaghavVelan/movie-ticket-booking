@@ -24,7 +24,7 @@ function Login(){
                         <button type="button" className="submit">Login</button>
                         <br />
                         <h4 id='h4'>OR</h4>
-                        <Link to='/Signup' id='ancher' className='user-login-signin'>New User Click Here</Link>   
+                        <Link to='/signup' id='ancher' className='user-login-signin'>New User Click Here</Link>   
                      
                     </form>
                     
