@@ -973,10 +973,10 @@ h2{
 
 .video{
     width: 100%;
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
 }
 
-.video>video{
+/* .video>video{
     position: relative;
 }
 
@@ -984,4 +984,64 @@ h2{
     position: absolute;
     bottom: 10%;
     color: #becded;
+} */
+
+.current-shows{
+    color: red;
+    font-size: clamp(2rem,1.5rem,1rem);
+}
+
+.movie-show{
+    width: 98vw;
+    display: grid;
+    gap: .5em;
+    padding: 0 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.show-timing{
+    display: flex;
+    gap: .5em;
+    width: 100%;
+    border: 1px solid #082032;
+}
+
+.show-timing>img{
+    width: 25%;
+}
+
+.timing{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    height: 50%;
+    /* display: flex; */
+}
+
+.single-show-timing{
+    width: 100%;
+    height: 3rem;
+    margin: 1rem 2rem;
+}
+
+
+@media only screen and (max-width: 850px){
+    .show-timing{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .show-timing>img{
+        width: 75%;
+    }
+    
+    .timing{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .single-show-timing{
+        margin: 0;
+    }
 }
