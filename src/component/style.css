@@ -1046,45 +1046,53 @@ h2{
     }
 }
 /* Contact */
+.contact{
+    padding: 20px;
+    text-align: center;
+}
 .proof {
     position: relative;
-    width: 200px; 
+    width: 200px;
+    margin: 20px;
+    left: 150px;
     display: inline-block;
-    margin: 15px;
     transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    
+    
   }
+
+  .proof img { width: 100%; 
+    border-radius: 10px;}
    
-  .proof img { 
-    width: 100%; 
-    border-radius: 10px;
-    ;
-}
-  
   .overlay {
-   
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-   
-   
     position: absolute;
     top: 0; left: 0;
     text-align: center;
     padding-top: 30%;
-   
-     
-    background-color: #ff0000;
+    background-color: #FF4C29;
+    
     color: white;
+    border-radius: 10px;
   }
    
-  
+  .overlay text{
+    margin-top: 200px;
+  }
   .overlay {
     visibility: none; opacity: 0;
-    transition: opacity 0.3s;
+    transition: ease-in 0.3s;
+    
   }
   .proof:hover .overlay {
-    visibility: visible; opacity: .6;
-    border-radius: 10px;
-    transform: scale(.7);
+    visibility: visible; opacity: 1;
+    opacity: .8;
+    
+  }
+  .proof:hover
+  {
+    transform: scale(1.2);
   }
