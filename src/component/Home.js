@@ -6,15 +6,11 @@ import App_logo from '../icon/Icon@2x.png';
 import dune from '../image/dune.png'
 import dr_strange from '../image/doctor-strange.png'
 import rainfall from '../image/rainfall.png'
-import avenger from '../image/avenger.png'
 import toy_story from '../image/toy-story-4.png'
-import joker from '../image/joker.png'
 import lion_king from '../image/the-lion-king.png'
 import free_guy from '../image/free-guy.png'
-import jurassic from '../image/jurassic-world-dominion.png'
 import thor from '../image/thor.png'
-import popeye from '../image/popeye.png'
-import batman from '../image/batman.png'
+
 
 
 
