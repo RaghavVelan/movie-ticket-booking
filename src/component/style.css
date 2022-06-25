@@ -490,6 +490,7 @@ Link,a,#ancher{
     z-index: -10;
 }
 
+
 @media only screen and (max-width: 1450px)  {
     .explore{
         margin-top: 2%;
@@ -532,6 +533,11 @@ Link,a,#ancher{
         transform: translateX(-50%);
     }
     
+}
+.explore_movie li p{
+    position: relative;
+    font-size: 15px;
+    margin-left: 10px;
 }
 
 /* Login */
@@ -1003,7 +1009,6 @@ h2{
     display: flex;
     gap: .5em;
     width: 100%;
-    border: 1px solid #082032;
 }
 
 .show-timing>img{
