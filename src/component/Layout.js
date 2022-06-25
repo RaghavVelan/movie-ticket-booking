@@ -27,7 +27,7 @@ function Layout(){
         <nav className={isActive ? "app" : "list_item"} id='list_item'>
         <ul id='listnav'>
           <li id='itemlist'>
-            <Link id='ancher' to="/">Home</Link>
+            <Link id='ancher' to="/Home">Home</Link>
           </li>
           <li>
             <Link id='ancher' to="/Explore">Explore</Link>

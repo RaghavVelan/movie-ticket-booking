@@ -1046,6 +1046,22 @@ h2{
     }
 }
 /* Contact */
+
+.topics h1{
+    margin: 20px;
+    margin-left: 34%;
+    background-color: #ff0000;
+    padding: 12px;
+    border-radius: 20px;    
+    display: inline-block;
+}
+.topics li {
+    text-decoration: none;
+    list-style-type: none;
+}
+.topics a:hover {
+    color: #FF4C29;
+}
 .contact{
     padding: 20px;
     text-align: center;
