@@ -1045,3 +1045,46 @@ h2{
         margin: 0;
     }
 }
+/* Contact */
+.proof {
+    position: relative;
+    width: 200px; 
+    display: inline-block;
+    margin: 15px;
+    transform: scale(1);
+  }
+   
+  .proof img { 
+    width: 100%; 
+    border-radius: 10px;
+    ;
+}
+  
+  .overlay {
+   
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+   
+   
+    position: absolute;
+    top: 0; left: 0;
+    text-align: center;
+    padding-top: 30%;
+   
+     
+    background-color: #ff0000;
+    color: white;
+  }
+   
+  
+  .overlay {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .proof:hover .overlay {
+    visibility: visible; opacity: .6;
+    border-radius: 10px;
+    transform: scale(.7);
+  }
