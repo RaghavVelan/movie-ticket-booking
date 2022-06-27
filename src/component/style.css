@@ -1031,13 +1031,20 @@ h2{
 
 
 @media only screen and (max-width: 850px){
-    .show-timing{
+    .movie-show{
+        width: 98vw;
+        display: grid;
+        gap: .5em;
+        padding: 0 1rem;
+        grid-template-columns: 1fr;
+    }
+    /* .show-timing{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
+    } */
     .show-timing>img{
-        width: 75%;
+        width: 50%;
     }
     
     .timing{
@@ -1047,7 +1054,7 @@ h2{
     }
     
     .single-show-timing{
-        margin: 0;
+        margin: 0 0 0 1rem;
     }
 }
 /* Contact */
