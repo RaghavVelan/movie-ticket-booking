@@ -11,7 +11,7 @@ function Signup(){
     const [password, setPassword] = useState("");
     const [users, setusers] = useState([]);
 
-    const url  = "https://localhost:44381/";
+    const url  = "https://localhost:44383/";
 
     const handleSubmit = (e) => {
         //alert(username+" " + email + " " + password);
@@ -22,7 +22,7 @@ function Signup(){
             Type : "Add"
         }
        axios
-       .post('https://localhost:44381/api/User/GetUser', data)
+       .post('https://localhost:44383/api/User/GetUser', data)
        .then((json) => {
             alert(JSON.stringify(json));
        })
