@@ -1,6 +1,6 @@
 import React from 'react'
 import './Booking.css'
-import './myscript'
+// import './myscript'
 export default function Booking() {
   return (
     <div> 
