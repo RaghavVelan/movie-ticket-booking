@@ -8,7 +8,6 @@ import Login from "./component/Login";
 import Explore from "./component/Explore";
 import Cinema from "./component/Cinema";
 import Movie from "./component/Movie"
-import Apppg from './App';
 import Booking from "./component/Booking";
 import Signup from "./component/Signup";
 
