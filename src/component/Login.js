@@ -13,15 +13,14 @@ function Login(){
     const [password, setPassword] = useState("");
     const [users, setusers] = useState([]);
     const [check, setCheck] = useState("");
-    const url  = "https://localhost:44383/";
+    const url  = "https://localhost:44381";   
 
     const handleLogin = (e) => {
         const data = {
             username : username,
-            password : password,
-            Type : "Add"
+            password : password
         }
-       let values = axios.get(url+'api/User/GetUser', data)
+       let values = axios.get(`${url}/api/User/GetUser`, data)
        for(let i=0 ;i<values.data.length ;i++)
        {
           if( values.data[i].username === users.username &&
